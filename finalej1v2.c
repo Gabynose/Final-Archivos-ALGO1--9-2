@@ -19,7 +19,7 @@ int main(){
 
     FILE* salida = fopen("salidaej1.txt", "w");
     if (salida == NULL){
-        perror("Archivo de salida error");
+        perror("Archivo de salida error XDDDDD");
         fclose(entrada);
         return -2;
     }
